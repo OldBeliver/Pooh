@@ -54,14 +54,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PoohLogic\PoohInput.cs" />
+    <Compile Include="Assets\Scripts\BeeSpawner\Spawner.cs" />
     <Compile Include="Assets\Scripts\Bee\BeeSprite.cs" />
     <Compile Include="Assets\Scripts\Bee\BeeMovement.cs" />
     <Compile Include="Assets\Scripts\PoohLogic\PoohMovement.cs" />
+    <Compile Include="Assets\Scripts\BeeSpawner\ObjectPool.cs" />
     <Compile Include="Assets\Scripts\Bee\Bee.cs" />
     <Compile Include="Assets\Scripts\PoohLogic\PoohSounds.cs" />
     <Compile Include="Assets\Scripts\BackgroundMusic\BackgroundMusic.cs" />
-    <Compile Include="Assets\Scripts\BeeSpawner\Spawner.cs" />
-    <Compile Include="Assets\Scripts\BeeSpawner\ObjectPool.cs" />
+    <Compile Include="Assets\Scripts\PoohLogic\Pooh.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -9,13 +9,8 @@ public class BeeMovement : MonoBehaviour
     private Vector3 _direction;
 
     private void OnEnable()
-    {
-        _direction = Vector3.left;
-
-        if (transform.position.x < 0)
-        {
-            _direction = Vector3.right;
-        }
+    {   
+        _direction = transform.position.x > 0 ? Vector3.left : Vector3.right;
     }
 
     private void Update()
